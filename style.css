@@ -12,8 +12,7 @@ textarea {
 	max-width: 852px;
 	float: top;
 	height: 300px;
-	overflow: auto;
-	margin:  0 auto;
+	overflow-y: scroll;
 	padding: 5px;
 	display: inline-flex;
 	background: #252525;
@@ -21,10 +20,10 @@ textarea {
 	outline: none;
 	font-family: Courier, sans-serif;
 	font-size: 14px;
-	border: 2px solid black;
+	border: 1.5px solid black;
 	resize: none;
 	white-space:nowrap;
-
+	word-wrap: break-word
 }
 
 iframe {
@@ -34,7 +33,7 @@ iframe {
 	border: none;
 	background-color: white;
 	overflow-y:scroll;
-	border: 2px solid black;
+	border: 1.5px solid black;
 }
 
 .container {
