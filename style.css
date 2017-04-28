@@ -1,0 +1,45 @@
+*{
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+body {
+	text-align: center;
+	background-color: black;
+}
+
+textarea {
+	max-width: 852px;
+	float: top;
+	height: 300px;
+	overflow: auto;
+	margin:  0 auto;
+	padding: 5px;
+	display: inline-flex;
+	background: #252525;
+	color: #f1f1f1 ;
+	outline: none;
+	font-family: Courier, sans-serif;
+	font-size: 14px;
+	border: 2px solid black;
+	resize: none;
+	white-space:nowrap;
+
+}
+
+iframe {
+	bottom: 0;
+	max-width: 2556;
+	height: 39em;
+	border: none;
+	background-color: white;
+	overflow-y:scroll;
+	border: 2px solid black;
+}
+
+.container {
+	max-width: 2556px;
+	margin: 0 auto;
+	display:inline-flex;
+  	
+}
