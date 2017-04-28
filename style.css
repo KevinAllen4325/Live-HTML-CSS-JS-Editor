@@ -23,7 +23,7 @@ textarea {
 	border: 1.5px solid black;
 	resize: none;
 	white-space:nowrap;
-	word-wrap: break-word
+	word-wrap: break-word;
 }
 
 iframe {
